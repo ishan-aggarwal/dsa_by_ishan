@@ -29,8 +29,8 @@ public class MaximumElementOfEachSubarrayOfSizeK {
         while (j < arr.length) {
 
             // calculation section
-            while (!deque.isEmpty() && deque.getFirst() < arr[j]) {
-                deque.removeFirst();
+            while (!deque.isEmpty() && deque.getLast() < arr[j]) {
+                deque.removeLast();
             }
             // add the element to the last of thr queue
             // basically ensuring the largest element so far is at the front of the queue
@@ -44,7 +44,7 @@ public class MaximumElementOfEachSubarrayOfSizeK {
                 // find the ans
                 ans.add(deque.getFirst());
 
-                if (!deque.isEmpty() && arr[i] == deque.getFirst()) {
+                if (arr[i] == deque.getFirst()) {
                     deque.removeFirst();
                 }
 
