@@ -7,8 +7,6 @@ package dynamic_programming.buy_sell_stock;
 // However, you can buy it then immediately sell it on the same day. -- this line does not make sense.
 // Find and return the maximum profit you can achieve.
 
-import java.util.Arrays;
-
 public class BuySellStock2 {
 
     public static int maxProfit(int[] prices) {
