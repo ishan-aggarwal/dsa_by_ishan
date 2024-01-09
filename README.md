@@ -1,3 +1,9 @@
-# dsa_by_ishan
+# DSA Revision With Ishan Aggarwal
 
-- DSA Questions
+* **Sliding Window Technique**
+    * **Fixed Size Window**
+        - Questions
+            * [Find maximum (or minimum) sum of a subarray of size k](..//dsa_by_ishan//src//main//java//sliding_window//fixed//MaximumSumOfAllSubarrayOfSizeK.java)
+    * **Variable Size Window**
+
+* **Dynamic Programming**
