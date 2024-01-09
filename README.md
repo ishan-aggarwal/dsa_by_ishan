@@ -10,3 +10,6 @@
     * **Variable Size Window**
 
 * **Dynamic Programming**
+    * **Buy Sell Stock Questions**
+        * [Buy Sell Stock 1](..//dsa_by_ishan//src//main//java//dynamic_programming//buy_sell_stock//BuySellStock1.java)
+        * [Buy Sell Stock 2](..//dsa_by_ishan//src//main//java//dynamic_programming//buy_sell_stock//BuySellStock2.java)
