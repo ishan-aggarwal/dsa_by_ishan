@@ -13,4 +13,5 @@
     * **Buy Sell Stock Questions**
         * [Buy Sell Stock 1 - Only once](..//dsa_by_ishan//src//main//java//dynamic_programming//buy_sell_stock//BuySellStock1.java)
         * [Buy Sell Stock 2 - Unlimited transactions](..//dsa_by_ishan//src//main//java//dynamic_programming//buy_sell_stock//BuySellStock2.java)
-        * [Buy Sell Stock 3 - Atmost 2 transactions](..//dsa_by_ishan//src//main//java//dynamic_programming//buy_sell_stock//BuySellStock2.java)
+        * [Buy Sell Stock 3 - Atmost 2 transactions](..//dsa_by_ishan//src//main//java//dynamic_programming//buy_sell_stock//BuySellStock3.java)
+        * [Buy Sell Stock 4 - Atmost k transactions](..//dsa_by_ishan//src//main//java//dynamic_programming//buy_sell_stock//BuySellStock4.java)
