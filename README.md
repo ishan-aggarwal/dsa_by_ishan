@@ -8,6 +8,8 @@
             * [First Negative In Every Window Of Size K](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/sliding_window/fixed/FirstNegativeOfEachSubarrayOfSizeK.java)
             * [Count Occurrences of Anagrams](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/sliding_window/fixed/CountAnagrams.java)
     * **Variable Size Window**
+        - Questions
+          * [Longest sub-array having sum k](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/sliding_window/variable/LongestSubarrayWithGivenSumK.java)
 
 * **Dynamic Programming**
     * **Buy Sell Stock Questions**
