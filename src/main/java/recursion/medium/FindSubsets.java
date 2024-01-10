@@ -9,6 +9,8 @@ public class FindSubsets {
     public static void main(String[] args) {
         String str = "ABC";
         System.out.println(subsets(str));
+        System.out.println("-----------");
+        printSubsets(str, "");
     }
 
     private static List<String> subsets(String str) {
@@ -32,5 +34,22 @@ public class FindSubsets {
         calculate(input, output, index + 1, len, ans);
         // choice-2 include the current character in the output
         calculate(input, output + currentChar, index + 1, len, ans);
+    }
+
+    private static void printSubsets(String input, String output) {
+        // base condition
+        if (input.length() == 0) {
+            System.out.println(output);
+            return;
+        }
+        // find the starting character from input string on which decision is required
+        char c = input.charAt(0);
+        // update the input string by removing the 0th character from input string as decision choices will be made on char at 0th pos
+        String substring = input.substring(1);
+        // do no include start char in output
+        printSubsets(substring, output);
+        // include the start char in the output
+        printSubsets(substring, output + c);
+
     }
 }
