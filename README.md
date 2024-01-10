@@ -16,6 +16,16 @@
             * [904. Fruit Into Baskets](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/sliding_window/variable/MaxFruitsIntoTwoBaskets.java)
 
 
+* **Recursion**
+    - Questions
+        * [Print One To N](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/recursion/easy/PrintOneToN.java)
+        * [Print N To One](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/recursion/easy/PrintNToOne.java)
+        * [Find Subsets of a string using recursion](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/recursion/medium/FindSubsets.java)
+
+
+* **Back Tracking**
+
+
 * **Dynamic Programming**
     * **Buy Sell Stock Questions**
         * [Buy Sell Stock 1 - Only once](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock1.java)
