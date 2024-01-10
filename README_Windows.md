@@ -10,6 +10,7 @@
     * **Variable Size Window**
         - Questions
             * [Longest sub-array having sum k](..//dsa_by_ishan//src//main//java//sliding_window//variable//LongestSubarrayWithGivenSumK.java)
+            * [Longest substring with k unique characters in a given string](..//dsa_by_ishan//src//main//java//sliding_window//variable//LongestSubstringWithKUniqueChars.java)
 
 * **Dynamic Programming**
     * **Buy Sell Stock Questions**

@@ -9,7 +9,8 @@
             * [Count Occurrences of Anagrams](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/sliding_window/fixed/CountAnagrams.java)
     * **Variable Size Window**
         - Questions
-          * [Longest sub-array having sum k](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/sliding_window/variable/LongestSubarrayWithGivenSumK.java)
+            * [Longest sub-array having sum k](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/sliding_window/variable/LongestSubarrayWithGivenSumK.java)
+            * [Longest substring with k unique characters in a given string](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/sliding_window/variable/LongestSubstringWithKUniqueChars.java)
 
 * **Dynamic Programming**
     * **Buy Sell Stock Questions**
