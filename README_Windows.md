@@ -13,6 +13,7 @@
             * [Longest substring with k unique characters in a given string](..//dsa_by_ishan//src//main//java//sliding_window//variable//LongestSubstringWithKUniqueChars.java)
             * [Longest substring without repeating characters](..//dsa_by_ishan//src//main//java//sliding_window//variable//LongestSubstringWithAllUniqueChars.java)
             * [Smallest Window In a string containing all characters of another string](..//dsa_by_ishan//src//main//java//sliding_window//variable//SmallestSubstringContainingAllCharsFromPattern.java)
+            * [904. Fruit Into Baskets](..//dsa_by_ishan//src//main//java//sliding_window//variable//MaxFruitsIntoTwoBaskets.java)
 
 * **Dynamic Programming**
     * **Buy Sell Stock Questions**
