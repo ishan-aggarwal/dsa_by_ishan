@@ -26,6 +26,11 @@
 * **Back Tracking**
 
 
+* **Linked List**
+    - Questions
+        * [Middle Element of Linked List](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/linked_list/MiddleElementOfLinkedList.java)
+
+
 * **Dynamic Programming**
     * **Buy Sell Stock Questions**
         * [Buy Sell Stock 1 - Only once](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock1.java)
