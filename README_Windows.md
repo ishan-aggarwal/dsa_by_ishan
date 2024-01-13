@@ -28,7 +28,7 @@
 * **Linked List**
     - Questions
         * [Middle Element of Linked List](..//dsa_by_ishan//src//main//java//linked_list//MiddleElementOfLinkedList.java)
-
+        * [Detect Cycle In Linked List](..//dsa_by_ishan//src//main//java//linked_list//DetectCycleInLinkedList.java)
 
 * **Dynamic Programming**
     * **Buy Sell Stock Questions**

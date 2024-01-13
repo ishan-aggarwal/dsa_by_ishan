@@ -29,6 +29,7 @@
 * **Linked List**
     - Questions
         * [Middle Element of Linked List](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/linked_list/MiddleElementOfLinkedList.java)
+        * [Detect Cycle In Linked List](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/linked_list/DetectCycleInLinkedList.java)
 
 
 * **Dynamic Programming**
