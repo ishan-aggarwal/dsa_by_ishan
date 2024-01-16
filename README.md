@@ -4,17 +4,16 @@
     * **Fixed Size Window**
         - Questions
             * Find maximum (or minimum) sum of a subarray of size k [:link:](/src/main/java/sliding_window/fixed/MaximumSumOfAllSubarrayOfSizeK.java)
-            * [Maximum of all subarrays of size K](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/sliding_window/fixed/MaximumElementOfEachSubarrayOfSizeK.java)
-            * [First Negative In Every Window Of Size K](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/sliding_window/fixed/FirstNegativeOfEachSubarrayOfSizeK.java)
-            * [Count Occurrences of Anagrams](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/sliding_window/fixed/CountAnagrams.java)
+            * Maximum of all subarrays of size K [:link:](/src/main/java/sliding_window/fixed/MaximumElementOfEachSubarrayOfSizeK.java)
+            * First Negative In Every Window Of Size K [:link:](/src/main/java/sliding_window/fixed/FirstNegativeOfEachSubarrayOfSizeK.java)
+            * Count Occurrences of Anagrams [:link:](/src/main/java/sliding_window/fixed/CountAnagrams.java)
     * **Variable Size Window**
         - Questions
-            * [Longest sub-array having sum k](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/sliding_window/variable/LongestSubarrayWithGivenSumK.java)
-            * [Longest substring with k unique characters in a given string](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/sliding_window/variable/LongestSubstringWithKUniqueChars.java)
-            * [Longest substring without repeating characters](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/sliding_window/variable/LongestSubstringWithAllUniqueChars.java)
-            * [Smallest Window In a string containing all characters of another string](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/sliding_window/variable/SmallestSubstringContainingAllCharsFromPattern.java)
-            * [904. Fruit Into Baskets](https://github.com/ishan-aggarwal/dsa_by_ishan/blob/master/src/main/java/sliding_window/variable/MaxFruitsIntoTwoBaskets.java)
-
+            * Longest sub-array having sum k [:link:](/src/main/java/sliding_window/variable/LongestSubarrayWithGivenSumK.java)
+            * Longest substring with k unique characters in a given string [:link:](/src/main/java/sliding_window/variable/LongestSubstringWithKUniqueChars.java)
+            * Longest substring without repeating characters [:link:](/src/main/java/sliding_window/variable/LongestSubstringWithAllUniqueChars.java)
+            * Smallest Window In a string containing all characters of another string [:link:](/src/main/java/sliding_window/variable/SmallestSubstringContainingAllCharsFromPattern.java)
+            * 904. Fruit Into Baskets [:link:](/src/main/java/sliding_window/variable/MaxFruitsIntoTwoBaskets.java)
 
 * **Recursion**
     - Questions
