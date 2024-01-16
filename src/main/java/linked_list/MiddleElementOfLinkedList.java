@@ -24,6 +24,22 @@ public class MiddleElementOfLinkedList {
     }
 
     private static ListNode findMiddle(ListNode head) {
+
+//        int length = 0;
+//        ListNode temp = head;
+//        while (temp != null) {
+//            temp = temp.getNext();
+//            length++;
+//        }
+//
+//        System.out.println(length);
+//        temp = head;
+//        for (int i = 0; i < (length/2) + 1; i++) {
+//            temp = temp.getNext();
+//        }
+//
+//        return temp;
+
         if (head == null || head.getNext() == null) {
             return head;
         }
