@@ -3,16 +3,23 @@
 * **Sliding Window Technique**
     * **Fixed Size Window**
         - Questions
-            * Find maximum (or minimum) sum of a subarray of size k [:link:](/src/main/java/sliding_window/fixed/MaximumSumOfAllSubarrayOfSizeK.java)
-            * Maximum of all subarrays of size K [:link:](/src/main/java/sliding_window/fixed/MaximumElementOfEachSubarrayOfSizeK.java)
-            * First Negative In Every Window Of Size K [:link:](/src/main/java/sliding_window/fixed/FirstNegativeOfEachSubarrayOfSizeK.java)
+            * Find maximum (or minimum) sum of a subarray of size
+              k [:link:](/src/main/java/sliding_window/fixed/MaximumSumOfAllSubarrayOfSizeK.java)
+            * Maximum of all subarrays of size
+              K [:link:](/src/main/java/sliding_window/fixed/MaximumElementOfEachSubarrayOfSizeK.java)
+            * First Negative In Every Window Of Size
+              K [:link:](/src/main/java/sliding_window/fixed/FirstNegativeOfEachSubarrayOfSizeK.java)
             * Count Occurrences of Anagrams [:link:](/src/main/java/sliding_window/fixed/CountAnagrams.java)
     * **Variable Size Window**
         - Questions
-            * Longest sub-array having sum k [:link:](/src/main/java/sliding_window/variable/LongestSubarrayWithGivenSumK.java)
-            * Longest substring with k unique characters in a given string [:link:](/src/main/java/sliding_window/variable/LongestSubstringWithKUniqueChars.java)
-            * Longest substring without repeating characters [:link:](/src/main/java/sliding_window/variable/LongestSubstringWithAllUniqueChars.java)
-            * Smallest Window In a string containing all characters of another string [:link:](/src/main/java/sliding_window/variable/SmallestSubstringContainingAllCharsFromPattern.java)
+            * Longest sub-array having sum
+              k [:link:](/src/main/java/sliding_window/variable/LongestSubarrayWithGivenSumK.java)
+            * Longest substring with k unique characters in a given
+              string [:link:](/src/main/java/sliding_window/variable/LongestSubstringWithKUniqueChars.java)
+            * Longest substring without repeating
+              characters [:link:](/src/main/java/sliding_window/variable/LongestSubstringWithAllUniqueChars.java)
+            * Smallest Window In a string containing all characters of another
+              string [:link:](/src/main/java/sliding_window/variable/SmallestSubstringContainingAllCharsFromPattern.java)
             * Q-904. Fruit Into Baskets [:link:](/src/main/java/sliding_window/variable/MaxFruitsIntoTwoBaskets.java)
 
 * **Recursion**
@@ -34,8 +41,13 @@
 * **Dynamic Programming**
     * **Buy Sell Stock Questions**
         * Buy Sell Stock 1 - Only once [:link:](/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock1.java)
-        * Buy Sell Stock 2 - Unlimited transactions [:link:](/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock2.java)
-        * Buy Sell Stock 3 - Atmost 2 transactions [:link:](/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock3.java)
-        * Buy Sell Stock 4 - Atmost k transactions [:link:](/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock4.java)
-        * Buy Sell Stock 5 - With transaction fee [:link:](/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock5.java)
-        * Buy Sell Stock 6 - With Cooldown period before buy again [:link:](/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock6.java)
+        * Buy Sell Stock 2 - Unlimited
+          transactions [:link:](/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock2.java)
+        * Buy Sell Stock 3 - Atmost 2
+          transactions [:link:](/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock3.java)
+        * Buy Sell Stock 4 - Atmost k
+          transactions [:link:](/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock4.java)
+        * Buy Sell Stock 5 - With transaction
+          fee [:link:](/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock5.java)
+        * Buy Sell Stock 6 - With Cooldown period before buy
+          again [:link:](/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock6.java)
