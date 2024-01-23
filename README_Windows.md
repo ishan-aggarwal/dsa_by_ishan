@@ -21,6 +21,7 @@
         * [Print N To One](..//dsa_by_ishan//src//main//java//recursion//easy//PrintNToOne.java)
         * [Find Subsets of a string using recursion](..//dsa_by_ishan//src//main//java//recursion//medium//FindSubsets.java)
         * [Find Permutations using recursion](..//dsa_by_ishan//src//main//java//recursion//medium//FindPermutations.java)
+        * [Count ways to obtain given sum by repeated throws of a dice](..//dsa_by_ishan//src//main//java//recursion//medium//PrintWaysToFindDiceTargetSum.java)
 
 
 * **Back Tracking**

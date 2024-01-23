@@ -28,6 +28,7 @@
         * Print N To One [:link:](/src/main/java/recursion/easy/PrintNToOne.java)
         * Find Subsets of a string using recursion [:link:](/src/main/java/recursion/medium/FindSubsets.java)
         * Find Permutations of a string using recursion [:link:](/src/main/java/recursion/medium/FindPermutations.java)
+        * Count ways to obtain given sum by repeated throws of a dice [:link:](/src/main/java/recursion/medium/PrintWaysToFindDiceTargetSum.java)
 
 
 * **Back Tracking**
