@@ -20,6 +20,7 @@
         * [Print One To N](..//dsa_by_ishan//src//main//java//recursion//easy//PrintOneToN.java)
         * [Print N To One](..//dsa_by_ishan//src//main//java//recursion//easy//PrintNToOne.java)
         * [Find Subsets of a string using recursion](..//dsa_by_ishan//src//main//java//recursion//medium//FindSubsets.java)
+        * [Find Permutations using recursion](..//dsa_by_ishan//src//main//java//recursion//medium//FindPermutations.java)
 
 
 * **Back Tracking**

@@ -27,6 +27,7 @@
         * Print One To N [:link:](/src/main/java/recursion/easy/PrintOneToN.java)
         * Print N To One [:link:](/src/main/java/recursion/easy/PrintNToOne.java)
         * Find Subsets of a string using recursion [:link:](/src/main/java/recursion/medium/FindSubsets.java)
+        * Find Permutations of a string using recursion [:link:](/src/main/java/recursion/medium/FindPermutations.java)
 
 
 * **Back Tracking**

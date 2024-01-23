@@ -15,25 +15,23 @@ public class FindSubsets {
 
     private static List<String> subsets(String str) {
         List<String> ans = new ArrayList<>();
-        int startIndex = 0;
-        calculate(str, "", startIndex, str.length(), ans);
+        calculate(str, "", ans);
         System.out.println("Total subsets are: " + ans.size() + " for string of length : " + str.length());
         return ans;
     }
 
-    private static void calculate(String input, String output, int index, int len, List<String> ans) {
-
+    private static void calculate(String input, String output, List<String> ans) {
         // base condition
-        if (index >= len) {
+        if (input == null || input.isEmpty()) {
             ans.add(output);
             return;
         }
 
-        char currentChar = input.charAt(index);
+        char currentChar = input.charAt(0);
         // choice-1 - do not include current character is not included in the output
-        calculate(input, output, index + 1, len, ans);
+        calculate(input.substring(1), output, ans);
         // choice-2 include the current character in the output
-        calculate(input, output + currentChar, index + 1, len, ans);
+        calculate(input.substring(1), output + currentChar, ans);
     }
 
     private static void printSubsets(String input, String output) {
@@ -44,12 +42,24 @@ public class FindSubsets {
         }
         // find the starting character from input string on which decision is required
         char c = input.charAt(0);
-        // update the input string by removing the 0th character from input string as decision choices will be made on char at 0th pos
-        String substring = input.substring(1);
+        // update the input string by removing the 0th character from input string as decision choices are already made on char at 0th pos
         // do no include start char in output
-        printSubsets(substring, output);
+        printSubsets(input.substring(1), output);
         // include the start char in the output
-        printSubsets(substring, output + c);
-
+        printSubsets(input.substring(1), output + c);
     }
+
+    public static List<String> allSubsetOfString(String input, String output) {
+        List<String> answer = new ArrayList<>();
+        if (input.isEmpty()) {
+            answer.add(output);
+            return answer;
+        }
+        char ch = input.charAt(0);
+        List<String> left = allSubsetOfString(input.substring(1), output + ch);
+        List<String> right = allSubsetOfString(input.substring(1), output);
+        left.addAll(right);
+        return left;
+    }
+
 }
