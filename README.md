@@ -28,7 +28,14 @@
         * Print N To One [:link:](/src/main/java/recursion/easy/PrintNToOne.java)
         * Find Subsets of a string using recursion [:link:](/src/main/java/recursion/medium/FindSubsets.java)
         * Find Permutations of a string using recursion [:link:](/src/main/java/recursion/medium/FindPermutations.java)
-        * Count ways to obtain given sum by repeated throws of a dice [:link:](/src/main/java/recursion/medium/PrintWaysToFindDiceTargetSum.java)
+        * Count ways to obtain given sum by repeated throws of a
+          dice [:link:](/src/main/java/recursion/medium/PrintWaysToFindDiceTargetSum.java)
+        * Print permutation of N numbers to form sum
+          S [:link:](/src/main/java/recursion/medium/PrintPermutationsOfNNumbersToFindGivenSum.java)
+        * CountUniquePathsInMatrix when we can move down and right
+          only [:link:](/src/main/java/recursion/medium/CountUniquePathsInMatrix.java)
+        * CountUniquePathsInMatrix when we can move down, right and diagonally
+          only [:link:](/src/main/java/recursion/medium/CountUniquePathsInMatrixWhenMoveDRD.java)
 
 
 * **Back Tracking**

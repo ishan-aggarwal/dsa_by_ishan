@@ -22,6 +22,9 @@
         * [Find Subsets of a string using recursion](..//dsa_by_ishan//src//main//java//recursion//medium//FindSubsets.java)
         * [Find Permutations using recursion](..//dsa_by_ishan//src//main//java//recursion//medium//FindPermutations.java)
         * [Count ways to obtain given sum by repeated throws of a dice](..//dsa_by_ishan//src//main//java//recursion//medium//PrintWaysToFindDiceTargetSum.java)
+        * [Print permutation of N numbers to form sum S](..//dsa_by_ishan//src//main//java//recursion//medium//PrintPermutationsOfNNumbersToFindGivenSum.java)
+        * [CountUniquePathsInMatrix when we can move down and right only](..//dsa_by_ishan//src//main//java//recursion//medium//CountUniquePathsInMatrix.java)
+        * [CountUniquePathsInMatrix when we can move down, right and diagonally](..//dsa_by_ishan//src//main//java//recursion//medium//CountUniquePathsInMatrixWhenMoveDRD.java)
 
 
 * **Back Tracking**
