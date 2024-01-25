@@ -24,8 +24,19 @@
 
 * **Recursion**
     - Questions
+    - **Easy**
         * Print One To N [:link:](/src/main/java/recursion/easy/PrintOneToN.java)
         * Print N To One [:link:](/src/main/java/recursion/easy/PrintNToOne.java)
+        * Find sum of digits of number [:link:](/src/main/java/recursion/easy/DigitSum.java)
+        * Count Zeros with in a number [:link:](/src/main/java/recursion/easy/CountZeros.java)
+        * Factorial of a number [:link:](/src/main/java/recursion/easy/Fact.java)
+        * Print N To One (Nto1) [:link:](/src/main/java/recursion/easy/Nto1.java)
+        * Check if number is Palindrome or not [:link:](/src/main/java/recursion/easy/Palindrome.java)
+        * Reverse a number [:link:](/src/main/java/recursion/easy/Reverse.java)
+        * Find Sum of first N natural numbers [:link:](/src/main/java/recursion/easy/Sum.java)
+        * Count Steps to reduce number to zero [:link:](/src/main/java/recursion/easy/Steps.java)
+    - **Array Based**
+    - **Medium**
         * Find Subsets of a string using recursion [:link:](/src/main/java/recursion/medium/FindSubsets.java)
         * Find Permutations of a string using recursion [:link:](/src/main/java/recursion/medium/FindPermutations.java)
         * Count ways to obtain given sum by repeated throws of a
