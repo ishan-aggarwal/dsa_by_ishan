@@ -36,6 +36,10 @@
         * Find Sum of first N natural numbers [:link:](/src/main/java/recursion/easy/Sum.java)
         * Count Steps to reduce number to zero [:link:](/src/main/java/recursion/easy/Steps.java)
     - **Array Based**
+        * Check if array elements are sorted or not [:link:](/src/main/java/recursion/array/Sorted.java)
+        * Find elements in an array using linear search - find, findAllIndexes, findIdx,
+          findIdxReverse [:link:](/src/main/java/recursion/array/Find.java)
+        * Binary Search [:link:](/src/main/java/recursion/array/BS.java)
     - **Medium**
         * Find Subsets of a string using recursion [:link:](/src/main/java/recursion/medium/FindSubsets.java)
         * Find Permutations of a string using recursion [:link:](/src/main/java/recursion/medium/FindPermutations.java)
