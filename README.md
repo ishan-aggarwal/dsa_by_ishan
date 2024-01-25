@@ -53,6 +53,10 @@
           only [:link:](/src/main/java/recursion/medium/CountUniquePathsInMatrixWhenMoveDRD.java)
         * PrintUniquePathsInMatrix when we can move down and
           right [:link:](/src/main/java/recursion/medium/PrintUniquePathsInMatrix.java)
+    - **backtracking**
+        * PrintAllUniquePathsFourDirectionsInMatrix when we can move down and
+          right, left and
+          up [:link:](/src/main/java/recursion/backtracking/PrintAllUniquePathsFourDirectionsInMatrix.java)
 
 
 * **Back Tracking**
