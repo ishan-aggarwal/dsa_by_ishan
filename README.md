@@ -39,6 +39,7 @@
         * Find elements in an array using linear search - find, findAllIndexes, findIdx,
           findIdxReverse [:link:](/src/main/java/recursion/array/Find.java)
         * Binary Search [:link:](/src/main/java/recursion/array/BS.java)
+        * Rotated Array Binary Search [:link:](/src/main/java/recursion/array/RBS.java)
     - **Medium**
         * Find Subsets of a string using recursion [:link:](/src/main/java/recursion/medium/FindSubsets.java)
         * Find Permutations of a string using recursion [:link:](/src/main/java/recursion/medium/FindPermutations.java)
