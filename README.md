@@ -22,8 +22,7 @@
               string [:link:](/src/main/java/sliding_window/variable/SmallestSubstringContainingAllCharsFromPattern.java)
             * Q-904. Fruit Into Baskets [:link:](/src/main/java/sliding_window/variable/MaxFruitsIntoTwoBaskets.java)
 
-* **Recursion**
-    - Questions
+* **Recursion Questions**
     - **Easy**
         * Print One To N [:link:](/src/main/java/recursion/easy/PrintOneToN.java)
         * Print N To One [:link:](/src/main/java/recursion/easy/PrintNToOne.java)
