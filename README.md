@@ -40,6 +40,13 @@
           findIdxReverse [:link:](/src/main/java/recursion/array/Find.java)
         * Binary Search [:link:](/src/main/java/recursion/array/BS.java)
         * Rotated Array Binary Search [:link:](/src/main/java/recursion/array/RBS.java)
+    - **Pattern and Sorting**
+        * Print Triangle Pattern [:link:](/src/main/java/recursion/pattern/Triangle.java)
+        * Bubble Sort [:link:](/src/main/java/recursion/sorting/BubbleSort.java)
+        * Selection Sort [:link:](/src/main/java/recursion/sorting/SelectionSort.java)
+        * Merge Sort [:link:](/src/main/java/recursion/sorting/MergeSort.java)
+        * Merge Sort In Place [:link:](/src/main/java/recursion/sorting/MergeSortInPlace.java)
+        * Quick Sort [:link:](/src/main/java/recursion/sorting/QuickSortInPlace.java)
     - **Medium**
         * Find Subsets of a string using recursion [:link:](/src/main/java/recursion/medium/FindSubsets.java)
         * Find Permutations of a string using recursion [:link:](/src/main/java/recursion/medium/FindPermutations.java)
