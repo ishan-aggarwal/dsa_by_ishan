@@ -78,6 +78,7 @@
     * Basic Trie DS Operations Insert and Search [:link:](/src/main/java/tries/TrieNodeSolution.java)
     * Search Words In Dictionary [:link:](/src/main/java/tries/SearchWordsInDictionary.java)
     * Shortest unique prefix [:link:](/src/main/java/tries/ShortestUniquePrefix.java)
+    * Contact Finder count (prefix count) [:link:](/src/main/java/tries/ContactFinderCount.java)
 
 * **Linked List**
     - Questions
