@@ -1,20 +1,20 @@
 package tries;
 
-public class TrieSolution {
+public class TrieNodeSolution {
 
-    private final TrieNode root;
+    private final TrieNodeArray root;
 
-    public TrieSolution() {
-        this.root = new TrieNode();
+    public TrieNodeSolution() {
+        this.root = new TrieNodeArray();
     }
 
     private void insert(String str) {
-        TrieNode current = root;
+        TrieNodeArray current = root;
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-            TrieNode trieNode = current.get(ch);
+            TrieNodeArray trieNode = current.get(ch);
             if (trieNode == null) {
-                current.put(ch, new TrieNode());
+                current.put(ch, new TrieNodeArray());
             }
             current = current.get(ch);
         }
@@ -22,10 +22,10 @@ public class TrieSolution {
     }
 
     private boolean search(String str) {
-        TrieNode current = root;
+        TrieNodeArray current = root;
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-            TrieNode trieNode = current.get(ch);
+            TrieNodeArray trieNode = current.get(ch);
             if (trieNode == null) {
                 return false;
             }
@@ -35,7 +35,7 @@ public class TrieSolution {
     }
 
     public static void main(String[] args) {
-        TrieSolution solution = new TrieSolution();
+        TrieNodeSolution solution = new TrieNodeSolution();
         System.out.println("Inserting keys into the trie structure");
         solution.insert("abc");
         solution.insert("abcd");

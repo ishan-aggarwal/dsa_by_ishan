@@ -73,8 +73,10 @@
 
 
 * **Tries**
-    * Trie DS model v1 [:link:](/src/main/java/tries/TrieNode.java)
-    * Basic Trie DS Operations Insert and Search [:link:](/src/main/java/tries/TrieSolution.java)
+    * Trie DS Array based model [:link:](/src/main/java/tries/TrieNodeArray.java)
+    * Trie DS Map based model [:link:](/src/main/java/tries/TrieNodeMap.java)
+    * Basic Trie DS Operations Insert and Search [:link:](/src/main/java/tries/TrieNodeSolution.java)
+    * Search Words In Dictionary [:link:](/src/main/java/tries/SearchWordsInDictionary.java)
 
 * **Linked List**
     - Questions

@@ -1,16 +1,16 @@
 package tries;
 
-public class TrieNode {
+public class TrieNodeArray {
 
-    TrieNode[] links = new TrieNode[26];
+    TrieNodeArray[] links = new TrieNodeArray[26];
     boolean flag = false;
 
 
-    public TrieNode get(char ch) {
+    public TrieNodeArray get(char ch) {
         return this.links[ch - 'a'];
     }
 
-    public void put(char ch, TrieNode trieNode) {
+    public void put(char ch, TrieNodeArray trieNode) {
         this.links[ch - 'a'] = trieNode;
     }
 
