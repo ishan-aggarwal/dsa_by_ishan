@@ -72,8 +72,9 @@
           up [:link:](/src/main/java/recursion/backtracking/PrintAllUniquePathsFourDirectionsInMatrix.java)
 
 
-* **Back Tracking**
-
+* **Tries**
+    * Trie DS model v1 [:link:](/src/main/java/tries/TrieNode.java)
+    * Basic Trie DS Operations Insert and Search [:link:](/src/main/java/tries/TrieSolution.java)
 
 * **Linked List**
     - Questions
