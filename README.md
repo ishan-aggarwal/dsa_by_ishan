@@ -47,9 +47,14 @@
         * Merge Sort [:link:](/src/main/java/recursion/sorting/MergeSort.java)
         * Merge Sort In Place [:link:](/src/main/java/recursion/sorting/MergeSortInPlace.java)
         * Quick Sort [:link:](/src/main/java/recursion/sorting/QuickSortInPlace.java)
+    - **String**
+        * Remove Occurrence [:link:](/src/main/java/recursion/string/RemoveOccurrence.java)
+        * More Removal Operations: Stream [:link:](/src/main/java/recursion/string/Stream.java)
+
     - **Medium**
         * Find Subsets of a string using recursion [:link:](/src/main/java/recursion/medium/FindSubsets.java)
-        * Find Permutations of a string using recursion [:link:](/src/main/java/recursion/medium/FindPermutations.java)
+        * Find Permutations of a string using
+          recursion [:link:](/src/main/java/recursion/medium/FindPermutations.java)
         * Count ways to obtain given sum by repeated throws of a
           dice [:link:](/src/main/java/recursion/medium/PrintWaysToFindDiceTargetSum.java)
         * Print permutation of N numbers to form sum
@@ -60,6 +65,7 @@
           only [:link:](/src/main/java/recursion/medium/CountUniquePathsInMatrixWhenMoveDRD.java)
         * PrintUniquePathsInMatrix when we can move down and
           right [:link:](/src/main/java/recursion/medium/PrintUniquePathsInMatrix.java)
+
     - **backtracking**
         * PrintAllUniquePathsFourDirectionsInMatrix when we can move down and
           right, left and
