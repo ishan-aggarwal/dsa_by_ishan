@@ -77,6 +77,7 @@
     * Trie DS Map based model [:link:](/src/main/java/tries/TrieNodeMap.java)
     * Basic Trie DS Operations Insert and Search [:link:](/src/main/java/tries/TrieNodeSolution.java)
     * Search Words In Dictionary [:link:](/src/main/java/tries/SearchWordsInDictionary.java)
+    * Shortest unique prefix [:link:](/src/main/java/tries/ShortestUniquePrefix.java)
 
 * **Linked List**
     - Questions
