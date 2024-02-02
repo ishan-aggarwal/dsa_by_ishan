@@ -93,6 +93,7 @@
     * Top K Frequent Numbers [:link:](/src/main/java/heaps/TopKFrequentNumbers.java)
     * Frequency Sort [:link:](/src/main/java/heaps/FrequencySort.java)
     * K Closest Points To Origin [:link:](/src/main/java/heaps/KClosestPointsToOrigin.java)
+    * Connect Ropes To Minimise Cost [:link:](/src/main/java/heaps/ConnectRopesToMinimiseCost.java)
 
 * **Linked List**
     - Questions
