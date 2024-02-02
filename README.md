@@ -23,6 +23,8 @@
             * Q-904. Fruit Into Baskets [:link:](/src/main/java/sliding_window/variable/MaxFruitsIntoTwoBaskets.java)
 
 * **Recursion Questions**
+    - Reference https://www.youtube.com/playlist?list=PL9gnSGHSqcnp39cTyB1dTZ2pJ04Xmdrod
+    - Notes [:link:](/src/main/java/recursion/Backtracking.one)
     - **Easy**
         * Print One To N [:link:](/src/main/java/recursion/easy/PrintOneToN.java)
         * Print N To One [:link:](/src/main/java/recursion/easy/PrintNToOne.java)
@@ -73,6 +75,7 @@
 
 
 * **Tries**
+    * Notes [:link:](/src/main/java/tries/Tries.one)
     * Trie DS Array based model [:link:](/src/main/java/tries/TrieNodeArray.java)
     * Trie DS Map based model [:link:](/src/main/java/tries/TrieNodeMap.java)
     * Basic Trie DS Operations Insert and Search [:link:](/src/main/java/tries/TrieNodeSolution.java)
