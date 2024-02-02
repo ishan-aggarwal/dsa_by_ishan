@@ -82,6 +82,7 @@
     * Search Words In Dictionary [:link:](/src/main/java/tries/SearchWordsInDictionary.java)
     * Shortest unique prefix [:link:](/src/main/java/tries/ShortestUniquePrefix.java)
     * Contact Finder count (prefix count) [:link:](/src/main/java/tries/ContactFinderCount.java)
+    * Longest Common Prefix [:link](/src/main/java/tries/LongestCommonPrefix.java)
 
 * **Heaps**
     * Reference https://www.youtube.com/playlist?list=PL_z_8CaSLPWdtY9W22VjnPxG30CXNZpI9
@@ -94,7 +95,8 @@
     * Frequency Sort [:link:](/src/main/java/heaps/FrequencySort.java)
     * K Closest Points To Origin [:link:](/src/main/java/heaps/KClosestPointsToOrigin.java)
     * Connect Ropes To Minimise Cost [:link:](/src/main/java/heaps/ConnectRopesToMinimiseCost.java)
-    * Sum of elements between k1 smallest and k2 smallest [:link:](/src/main/java/heaps/SumElementsBetweenK1AndK2Smallest.java)
+    * Sum of elements between k1 smallest and k2
+      smallest [:link:](/src/main/java/heaps/SumElementsBetweenK1AndK2Smallest.java)
 
 * **Linked List**
     - Questions
