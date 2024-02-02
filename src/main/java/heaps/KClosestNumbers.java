@@ -23,7 +23,7 @@ public class KClosestNumbers {
     }
 
     public static void main(String[] args) {
-        int[] arr = {5, 6, 7, 8, 9, 7};
+        int[] arr = {5, 6, 7, 8, 9};
         int k = 3;
         int x = 7;
         System.out.println(kClosestNumbers(arr, k, x));
