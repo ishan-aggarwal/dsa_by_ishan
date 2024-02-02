@@ -92,6 +92,7 @@
     * K Closest Numbers [:link:](/src/main/java/heaps/KClosestNumbers.java)
     * Top K Frequent Numbers [:link:](/src/main/java/heaps/TopKFrequentNumbers.java)
     * Frequency Sort [:link:](/src/main/java/heaps/FrequencySort.java)
+    * K Closest Points To Origin [:link:](/src/main/java/heaps/KClosestPointsToOrigin.java)
 
 * **Linked List**
     - Questions
