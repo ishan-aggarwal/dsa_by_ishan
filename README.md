@@ -84,6 +84,7 @@
     * Reference https://www.youtube.com/playlist?list=PL_z_8CaSLPWdtY9W22VjnPxG30CXNZpI9
     * Notes [:link:](/src/main/java/heaps/Heap.one)
     * Kth Smallest Element [:link:](/src/main/java/heaps/KthSmallestElement.java)
+    * Return k largest elements in array [:link:](/src/main/java/heaps/KLargestElementsInArray.java)
 
 * **Linked List**
     - Questions
