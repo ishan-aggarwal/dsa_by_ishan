@@ -75,11 +75,13 @@
 
 
 * **Tries**
+    * Reference https://www.youtube.com/playlist?list=PLgUwDviBIf0pcIDCZnxhv0LkHf5KzG9zp
     * Notes [:link:](/src/main/java/tries/Tries.one)
     * Trie DS Array based model [:link:](/src/main/java/tries/TrieNodeArray.java)
     * Trie DS Map based model [:link:](/src/main/java/tries/TrieNodeMap.java)
     * Basic Trie DS Operations Insert and Search [:link:](/src/main/java/tries/TrieNodeSolution.java)
     * Implement Trie Prefix [:link](/src/main/java/tries/TriePrefixSolution.java)
+    * Implement Trie Prefix (CountWords, CountStartsWith, Erase) [:link](/src/main/java/tries/TriePrefixSolution2.java)
     * Search Words In Dictionary [:link:](/src/main/java/tries/SearchWordsInDictionary.java)
     * Shortest unique prefix [:link:](/src/main/java/tries/ShortestUniquePrefix.java)
     * Contact Finder count (prefix count) [:link:](/src/main/java/tries/ContactFinderCount.java)
