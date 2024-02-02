@@ -11,8 +11,12 @@ public class KLargestElementsInArray {
         System.out.println(kLargestElementsInArray(arr, k));
     }
 
+    // when we want to return remaining largest elements
+    // then we will create min heap
     private static List<Integer> kLargestElementsInArray(int[] arr, int k) {
         List<Integer> result = new ArrayList<>();
+
+        // is used to create min heap
         PriorityQueue<Integer> pq = new PriorityQueue<>();
 
         for (int ele : arr) {
