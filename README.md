@@ -85,6 +85,7 @@
     * Notes [:link:](/src/main/java/heaps/Heap.one)
     * Kth Smallest Element [:link:](/src/main/java/heaps/KthSmallestElement.java)
     * Return k largest elements in array [:link:](/src/main/java/heaps/KLargestElementsInArray.java)
+    * Sort a K Sorted Array | Sort Nearly Sorted Array [:link:](/src/main/java/heaps/SortKSortedArray.java)
 
 * **Linked List**
     - Questions
