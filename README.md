@@ -87,6 +87,7 @@
     * Return k largest elements in array [:link:](/src/main/java/heaps/KLargestElementsInArray.java)
     * Sort a K Sorted Array | Sort Nearly Sorted Array [:link:](/src/main/java/heaps/SortKSortedArray.java)
     * K Closest Numbers [:link:](/src/main/java/heaps/KClosestNumbers.java)
+    * Top K Frequent Numbers [:link:](/src/main/java/heaps/TopKFrequentNumbers.java)
 
 * **Linked List**
     - Questions
