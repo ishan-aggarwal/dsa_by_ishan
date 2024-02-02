@@ -94,6 +94,7 @@
     * Frequency Sort [:link:](/src/main/java/heaps/FrequencySort.java)
     * K Closest Points To Origin [:link:](/src/main/java/heaps/KClosestPointsToOrigin.java)
     * Connect Ropes To Minimise Cost [:link:](/src/main/java/heaps/ConnectRopesToMinimiseCost.java)
+    * Sum of elements between k1 smallest and k2 smallest [:link:](/src/main/java/heaps/SumElementsBetweenK1AndK2Smallest.java)
 
 * **Linked List**
     - Questions
