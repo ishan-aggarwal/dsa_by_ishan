@@ -108,11 +108,13 @@
 
 
 * **Dynamic Programming**
+    * **1D DP Problems**
+        * Climbing Stairs [:link:](/src/main/java/dynamic_programming/oneD/ClimbingStairs.java)
     * **p1 - 0/1 Knapsack Problem Questions**
         * 0/1 knapsack problem
-            * [:link:](/src/main/java/dynamic_programming/p1/_01KnapsackRecursive.java)
-            * [:link:](/src/main/java/dynamic_programming/p1/_01KnapsackMemoization.java)
-            * [:link:](/src/main/java/dynamic_programming/p1/_01KnapsackTopDown.java)
+        * [:link:](/src/main/java/dynamic_programming/p1/_01KnapsackRecursive.java)
+        * [:link:](/src/main/java/dynamic_programming/p1/_01KnapsackMemoization.java)
+        * [:link:](/src/main/java/dynamic_programming/p1/_01KnapsackTopDown.java)
         * Subset Sum
         * Equal Sum Partition
         * Count of subset sum
@@ -120,7 +122,8 @@
         * Target Sum
         * Number of subset with given difference
     * **Buy Sell Stock Questions**
-        * Buy Sell Stock 1 - Only once [:link:](/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock1.java)
+        * Buy Sell Stock 1 - Only
+          once [:link:](/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock1.java)
         * Buy Sell Stock 2 - Unlimited
           transactions [:link:](/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock2.java)
         * Buy Sell Stock 3 - Atmost 2
