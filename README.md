@@ -108,6 +108,17 @@
 
 
 * **Dynamic Programming**
+    * **p1 - 0/1 Knapsack Problem Questions**
+        * 0/1 knapsack problem
+            * [:link:](/src/main/java/dynamic_programming/p1/_01KnapsackRecursive.java)
+            * [:link:](/src/main/java/dynamic_programming/p1/_01KnapsackMemoization.java)
+            * [:link:](/src/main/java/dynamic_programming/p1/_01KnapsackTopDown.java)
+        * Subset Sum
+        * Equal Sum Partition
+        * Count of subset sum
+        * Minimum subset sum difference
+        * Target Sum
+        * Number of subset with given difference
     * **Buy Sell Stock Questions**
         * Buy Sell Stock 1 - Only once [:link:](/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock1.java)
         * Buy Sell Stock 2 - Unlimited
