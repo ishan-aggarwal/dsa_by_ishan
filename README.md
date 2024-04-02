@@ -134,3 +134,13 @@
           fee [:link:](/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock5.java)
         * Buy Sell Stock 6 - With Cooldown period before buy
           again [:link:](/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock6.java)
+
+* **Graphs**
+    * **Day 1**
+        * Graph Representation In Java Matrix
+          Based [:link:](/src/main/java/graphs/day1/MatrixGraph.java)
+        * Graph Representation In Java Adjacency list
+          Based [:link:](/src/main/java/graphs/day1/AdjacencyListGraph.java)
+        * Graph Traversal
+            * BFS [:link:](/src/main/java/graphs/day1/GraphBFSTraversal.java)
+            * DFS [:link:](/src/main/java/graphs/day1/GraphDFSTraversal.java)
