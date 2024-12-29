@@ -87,19 +87,73 @@
     * Contact Finder count (prefix count) [:link:](/src/main/java/tries/ContactFinderCount.java)
     * Longest Common Prefix [:link](/src/main/java/tries/LongestCommonPrefix.java)
 
-* **Heaps**
-    * Reference https://www.youtube.com/playlist?list=PL_z_8CaSLPWdtY9W22VjnPxG30CXNZpI9
-    * Notes [:link:](/src/main/java/heaps/Heap.one)
-    * Kth Smallest Element [:link:](/src/main/java/heaps/KthSmallestElement.java)
-    * Return k largest elements in array [:link:](/src/main/java/heaps/KLargestElementsInArray.java)
-    * Sort a K Sorted Array | Sort Nearly Sorted Array [:link:](/src/main/java/heaps/SortKSortedArray.java)
-    * K Closest Numbers [:link:](/src/main/java/heaps/KClosestNumbers.java)
-    * Top K Frequent Numbers [:link:](/src/main/java/heaps/TopKFrequentNumbers.java)
-    * Frequency Sort [:link:](/src/main/java/heaps/FrequencySort.java)
-    * K Closest Points To Origin [:link:](/src/main/java/heaps/KClosestPointsToOrigin.java)
-    * Connect Ropes To Minimise Cost [:link:](/src/main/java/heaps/ConnectRopesToMinimiseCost.java)
-    * Sum of elements between k1 smallest and k2
-      smallest [:link:](/src/main/java/heaps/SumElementsBetweenK1AndK2Smallest.java)
+## Heaps
+
+### Overview
+This section focuses on problems related to heaps, including both min-heaps and max-heaps, and their application in solving common DSA problems efficiently.
+
+| Problem Description | Code Link |
+|----------------------|-----------|
+| **Kth Smallest Element**: Find the kth smallest element in an unsorted array by maintaining a max heap of size `k`. The largest element in the heap at any time ensures efficient retrieval of the kth smallest element. **Time Complexity**: O(n * log k). | [:link:](/src/main/java/heaps/KthSmallestElement.java) |
+| **Return k largest elements in an array**: Extract the top `k` largest elements from an array using a min-heap of size `k`. | [:link:](/src/main/java/heaps/KLargestElementsInArray.java) |
+| **Sort a K Sorted Array**: Given an almost sorted array where every element is at most `k` positions away from its sorted position, sort it using a min-heap. | [:link:](/src/main/java/heaps/SortKSortedArray.java) |
+| **K Closest Numbers**: Identify the `k` numbers closest to a given value using a max heap and custom comparator. | [:link:](/src/main/java/heaps/KClosestNumbers.java) |
+| **Top K Frequent Numbers**: Determine the `k` most frequently occurring numbers in an array by using a frequency map and a min-heap. | [:link:](/src/main/java/heaps/TopKFrequentNumbers.java) |
+| **Frequency Sort**: Rearrange elements of an array based on their frequency using a max heap. | [:link:](/src/main/java/heaps/FrequencySort.java) |
+| **K Closest Points to Origin**: Find the `k` points closest to the origin (0,0) in a 2D plane using a max heap. | [:link:](/src/main/java/heaps/KClosestPointsToOrigin.java) |
+| **Connect Ropes to Minimize Cost**: Connect ropes with minimal cost by repeatedly merging the two smallest ropes using a min-heap. | [:link:](/src/main/java/heaps/ConnectRopesToMinimiseCost.java) |
+| **Sum of Elements Between k1 and k2 Smallest**: Compute the sum of array elements between the `k1` smallest and `k2` smallest using a min-heap. | [:link:](/src/main/java/heaps/SumElementsBetweenK1AndK2Smallest.java) |
+
+---
+
+### Detailed Problem Descriptions
+
+#### **Kth Smallest Element**
+Find the kth smallest element in an unsorted array using a **max-heap**.  
+
+- **Approach**:
+  1. Use a max-heap (created with `PriorityQueue` and `Collections.reverseOrder()`).
+  2. Iterate through the array and insert elements into the heap.
+  3. If the heap size exceeds `k` at any point, remove the top element. This ensures the heap always contains the smallest `k` elements.
+  4. At the end of the iteration, the top of the heap (`peek`) gives the `kth` smallest element.
+- **Complexity**: O(n * log k)  
+  - Inserting an element into the heap takes O(log k).
+  - Iterating through all `n` elements gives O(n * log k).
+
+**Why Use a Max-Heap?**
+In a max-heap, the smallest elements sink to the bottom, so maintaining only `k` elements ensures the largest of the smallest `k` is at the top. The additional elements can be discarded as they don't contribute to finding the `kth` smallest.
+
+#### **Return k Largest Elements in an Array**
+Extract the `k` largest elements from an array using a **min-heap**.  
+- **Approach**: Build a min-heap of size `k` to hold the largest elements. For every element in the array:
+  - If the heap size is less than `k`, add the element.
+  - Otherwise, compare the current element with the top of the heap. If it's larger, replace the top element.
+- **Complexity**: O(n * log k)
+
+#### **Sort a K-Sorted Array**
+Sort an almost sorted array where each element is at most `k` positions away from its sorted location.  
+- **Approach**: Use a min-heap to hold `k+1` elements. For each element:
+  - Add it to the heap.
+  - Extract the smallest element and place it in the sorted position.
+- **Complexity**: O(n * log k)
+
+#### **K Closest Numbers**
+Find the `k` numbers closest to a given value `x` using a **max-heap**.  
+- **Approach**: Use a custom comparator to sort elements based on their absolute difference from `x`. Maintain a max-heap of size `k` and discard elements with a larger absolute difference.
+- **Complexity**: O(n * log k)
+
+#### **Top K Frequent Numbers**
+Determine the `k` most frequently occurring elements in an array.  
+- **Approach**: Build a frequency map and use a min-heap of size `k` to store the top `k` frequencies.
+- **Complexity**: O(n + k * log n)
+
+#### **Frequency Sort**
+Sort the array based on the frequency of each element using a **max-heap**.  
+- **Approach**: Build a frequency map, push elements into a max-heap, and reconstruct the array based on heap order.
+- **Complexity**: O(n log n)
+
+---
+
 
 * **Linked List**
     - Questions
