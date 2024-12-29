@@ -124,11 +124,20 @@ Find the kth smallest element in an unsorted array using a **max-heap**.
 In a max-heap, the smallest elements sink to the bottom, so maintaining only `k` elements ensures the largest of the smallest `k` is at the top. The additional elements can be discarded as they don't contribute to finding the `kth` smallest.
 
 #### **Return k Largest Elements in an Array**
-Extract the `k` largest elements from an array using a **min-heap**.  
-- **Approach**: Build a min-heap of size `k` to hold the largest elements. For every element in the array:
-  - If the heap size is less than `k`, add the element.
-  - Otherwise, compare the current element with the top of the heap. If it's larger, replace the top element.
-- **Complexity**: O(n * log k)
+
+- **Approach**:
+  1. Use a min-heap (created with `PriorityQueue` ).
+  2. Iterate through the array and insert elements into the heap.
+  3. If the heap size exceeds `k` at any point, remove the top element. This ensures the heap always contains the largest `k` elements.
+  4. At the end of the iteration, the heap contains the `k` largest elements.
+  5. Extract all elements from the heap to get the result.
+  
+- **Complexity**: O(n * log k)  
+  - Inserting an element into the heap takes O(log k).
+  - Iterating through all `n` elements gives O(n * log k).
+
+**Why Use a Min-Heap?**
+In a min-heap, the smallest element is always at the root. By maintaining a heap of size `k`, the root will always contain the smallest element among the k largest elements seen so far. This ensures that elements smaller than the k largest can be easily discarded, while the heap retains only the top k largest elements efficiently.
 
 #### **Sort a K-Sorted Array**
 Sort an almost sorted array where each element is at most `k` positions away from its sorted location.  
