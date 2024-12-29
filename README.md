@@ -2,26 +2,29 @@
 
 ## **Sliding Window Technique**
 
-### **Fixed Size Window**
+### **Overview**
 
-- Questions
-  * Find maximum (or minimum) sum of a subarray of size k [🔗](/src/main/java/sliding_window/fixed/MaximumSumOfAllSubarrayOfSizeK.java)
-  * Maximum of all subarrays of size K [🔗](/src/main/java/sliding_window/fixed/MaximumElementOfEachSubarrayOfSizeK.java)
-  * First Negative In Every Window Of Size K [🔗](/src/main/java/sliding_window/fixed/FirstNegativeOfEachSubarrayOfSizeK.java)
-  * Count Occurrences of Anagrams [🔗](/src/main/java/sliding_window/fixed/CountAnagrams.java)
+This section focuses on problems related to sliding window, including both fixed and variable size sliding windows, and their application in solving common DSA problems efficiently.
 
-### **Variable Size Window**
+| Problem Description                                                     | Code Link                                                                                     |
+| ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Find maximum (or minimum) sum of a subarray of size k                   | [🔗](/src/main/java/sliding_window/fixed/MaximumSumOfAllSubarrayOfSizeK.java)                    |
+| Maximum of all subarrays of size K                                      | [🔗](/src/main/java/sliding_window/fixed/MaximumElementOfEachSubarrayOfSizeK.java)               |
+| First Negative In Every Window Of Size K                                | [🔗](/src/main/java/sliding_window/fixed/FirstNegativeOfEachSubarrayOfSizeK.java)                |
+| Count Occurrences of Anagrams                                           | [🔗](/src/main/java/sliding_window/fixed/CountAnagrams.java)                                     |
+|                                                                         |                                                                                               |
+| Longest sub-array having sum k                                          | [🔗](/src/main/java/sliding_window/variable/LongestSubarrayWithGivenSumK.java)                   |
+| Longest substring with k unique characters in a given string            | [🔗](/src/main/java/sliding_window/variable/LongestSubstringWithKUniqueChars.java)               |
+| Longest substring without repeating characters                          | [🔗](/src/main/java/sliding_window/variable/LongestSubstringWithAllUniqueChars.java)             |
+| Smallest Window In a string containing all characters of another string | [🔗](/src/main/java/sliding_window/variable/SmallestSubstringContainingAllCharsFromPattern.java) |
+| Q-904. Fruit Into Baskets                                               | [🔗](/src/main/java/sliding_window/variable/MaxFruitsIntoTwoBaskets.java)                        |
 
-- Questions
-  * Longest sub-array having sum k [🔗](/src/main/java/sliding_window/variable/LongestSubarrayWithGivenSumK.java)
-  * Longest substring with k unique characters in a given string [🔗](/src/main/java/sliding_window/variable/LongestSubstringWithKUniqueChars.java)
-  * Longest substring without repeating characters [🔗](/src/main/java/sliding_window/variable/LongestSubstringWithAllUniqueChars.java)
-  * Smallest Window In a string containing all characters of another string [🔗](/src/main/java/sliding_window/variable/SmallestSubstringContainingAllCharsFromPattern.java)
-  * Q-904. Fruit Into Baskets [🔗](/src/main/java/sliding_window/variable/MaxFruitsIntoTwoBaskets.java)
+
+### Detailed Problem Descriptions
+
+#### Find maximum (or minimum) sum of a subarray of size k
 
 ---
-
-
 
 ## **Recursion Questions**
 
@@ -84,17 +87,13 @@ Notes [🔗](/src/main/java/recursion/Backtracking.one)
 
 ---
 
-
-
 ## **Backtracking**
 
 * PrintAllUniquePathsFourDirectionsInMatrix when we can move down and right, left andup [🔗](/src/main/java/recursion/backtracking/PrintAllUniquePathsFourDirectionsInMatrix.java)
 
 ---
 
-
-
-## **Tries** 
+## **Tries**
 
 * Reference https://www.youtube.com/playlist?list=PLgUwDviBIf0pcIDCZnxhv0LkHf5KzG9zp
 * Notes [🔗](/src/main/java/tries/Tries.one)
@@ -109,8 +108,6 @@ Notes [🔗](/src/main/java/recursion/Backtracking.one)
 * Longest Common Prefix [:link](/src/main/java/tries/LongestCommonPrefix.java)
 
 ---
-
-
 
 ## Heaps
 
@@ -199,7 +196,6 @@ Sort the array based on the frequency of each element using a **max-heap**.
 
 ---
 
-
 ## **Linked List**
 
 - Questions
@@ -207,8 +203,6 @@ Sort the array based on the frequency of each element using a **max-heap**.
   * Detect Cycle In Linked List [🔗](/src/main/java/linked_list/DetectCycleInLinkedList.java)
 
 ---
-
-
 
 ## **Dynamic Programming**
 
@@ -245,8 +239,6 @@ Sort the array based on the frequency of each element using a **max-heap**.
   again [🔗](/src/main/java/dynamic_programming/buy_sell_stock/BuySellStock6.java)
 
 ---
-
-
 
 ## **Graphs**
 
