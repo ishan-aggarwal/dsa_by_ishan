@@ -19,10 +19,44 @@ This section focuses on problems related to sliding window, including both fixed
 | Smallest Window In a string containing all characters of another string | [🔗](/src/main/java/sliding_window/variable/SmallestSubstringContainingAllCharsFromPattern.java) |
 | Q-904. Fruit Into Baskets                                               | [🔗](/src/main/java/sliding_window/variable/MaxFruitsIntoTwoBaskets.java)                        |
 
-
 ### Detailed Problem Descriptions
 
-#### Find maximum (or minimum) sum of a subarray of size k
+#### **Find Maximum (or Minimum) Sum of a Subarray of Size K**
+
+Given an array, find the maximum sum of any subarray of size `k` using the **fixed size sliding window technique.**
+
+**Approach**
+
+**Use Sliding Window** :
+
+* The sliding window technique helps efficiently calculate the sum of subarrays without recalculating the sum from scratch for every new window.
+* A "window" is defined as a subarray of size `k`.
+
+**Steps** :
+
+* Start with two pointers (`i` and `j`) at the beginning of the array. These represent the start and end of the window.
+* Keep a running sum of the elements within the window (`currentSum`).
+* Expand the window by moving the right pointer (`j`) and adding the element to `currentSum`.
+* When the window size reaches `k`, calculate the maximum sum so far and store it in `maxSum`.
+* Slide the window by moving the left pointer (`i`) forward and subtracting the element at `i` from `currentSum`.
+* Continue until the right pointer reaches the end of the array.
+* **Return the maximum sum** after iterating through all subarrays of size `k`.
+
+**Complexity**
+
+**Time Complexity** : O(n)
+
+* Each element is added to `currentSum` exactly once and removed exactly once, resulting in a linear traversal of the array.
+
+**Space Complexity** : O(1)
+
+* No extra space is used except for a few variables to store the sum and indices.
+
+**Why Use Sliding Window?**
+
+* Sliding window avoids redundant calculations by reusing the sum of overlapping elements between consecutive subarrays.
+* For example, when moving from one subarray to the next, instead of summing all elements again, simply subtract the element that is sliding out of the window and add the element that is sliding in.
+
 
 ---
 
