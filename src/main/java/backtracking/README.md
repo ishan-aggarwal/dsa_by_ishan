@@ -35,7 +35,8 @@ The number of ) should never exceed the number of ( encountered at any point
 ![1735663850893](image/README/1735663850893.png)
 
 **Solution**
-![GenerateValidParentheses](s1/GenerateValidParentheses.java)
+
+[GenerateValidParentheses](s1/GenerateValidParentheses.java)
 
 **Time and Space Complexity**
 
@@ -86,7 +87,9 @@ Backtracking Strategy
 
 **Pseudocode**
 
-```java
+![img_5.png](image/README/img_5.png)
+
+```text
 generateSubsets(index, currentSet) {
     if (index == n) {
         output the currentSet;
@@ -96,3 +99,18 @@ generateSubsets(index, currentSet) {
     generateSubsets(index + 1, currentSet + array[index]);
 }
 ```
+
+**Dry Run**
+
+![img_2.png](image/README/img_2.png)
+
+**Solution**
+
+[GenerateSubsets](s1/GenerateSubsets.java)
+
+**Time and Space Complexity**
+
+**TC** - O (n * 2 ^ n) // total 2^n branches and at the last level of each branch we are doing deep copy of
+currentAnswer to result (which is O(N) operation))
+
+**SC** - O (n) - Depth of the tree
