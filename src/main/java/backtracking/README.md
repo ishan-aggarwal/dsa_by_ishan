@@ -111,6 +111,56 @@ generateSubsets(index, currentSet) {
 **Time and Space Complexity**
 
 **TC** - O (n * 2 ^ n) // total 2^n branches and at the last level of each branch we are doing deep copy of
-currentAnswer to result (which is O(N) operation))
+currentAnswer to result (which is O(N) operation)
+
+**SC** - O (n) - Depth of the tree
+
+## Permutations of an input (Fitness meets variety)
+
+Given a string with distinct elements print all permutations of it without modifying input.
+
+![img_6.png](image/README/img_6.png)
+
+![img_7.png](image/README/img_7.png)
+
+**Concept and Approach**
+
+- Recursively swap characters to generate new permutations while making sure each permutation is unique.
+- Use a boolean array to track characters that have already been used in the current permutation.
+
+Use set to maintain the characters used.
+![img_8.png](image/README/img_8.png)
+
+![img_9.png](image/README/img_9.png)
+
+**Pseudocode**
+
+![img_10.png](image/README/img_10.png)
+
+```text
+function permutations(array, position, visited) {
+    if (position == array.length) {
+        print the permutation;
+        return;
+    }
+    for i from 0 to array.length - 1 {
+        if visited[i] == false {
+            mark visited[i] = true;
+            output[position] = array[i];
+            permutations(array, position + 1, visited);
+            mark visited[i] = false;
+        }
+    }
+}
+```
+
+**Solution**
+
+[GeneratePermutations](s1/GeneratePermutations.java)
+
+**Time and Space Complexity**
+
+**TC** - O (n * n!) // total n! branches and at the last level of each branch we are printing the answer (which is O(N)
+operation)
 
 **SC** - O (n) - Depth of the tree
