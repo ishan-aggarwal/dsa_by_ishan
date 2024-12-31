@@ -164,3 +164,9 @@ function permutations(array, position, visited) {
 operation)
 
 **SC** - O (n) - Depth of the tree
+
+## Letter Phone combinations of an input (Fitness meets variety)
+
+**Solution**
+
+[LetterPhone](s1/additionalproblems/LetterPhone.java)
