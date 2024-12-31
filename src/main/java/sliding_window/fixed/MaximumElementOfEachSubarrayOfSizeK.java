@@ -29,10 +29,15 @@ public class MaximumElementOfEachSubarrayOfSizeK {
         while (j < arr.length) {
 
             // calculation section
+            // here basically we are checking while my deque is not empty
+            // and the last element added to the queue is less than my current
+            // element, then we can safely remove the last element
+            // as this will not contribute to the largest element in current window
+            // and upcoming windows as well
             while (!deque.isEmpty() && deque.getLast() < arr[j]) {
                 deque.removeLast();
             }
-            // add the element to the last of thr queue
+            // add the element to the last of the queue
             // basically ensuring the largest element so far is at the front of the queue
             deque.addLast(arr[j]);
 
