@@ -1,14 +1,28 @@
 # Backtracking
 
-trying out all possibilities using recursion
+Backtracking is an algorithmic technique used for solving problems recursively by trying to build a solution
+incrementally, one piece at a time, and removing those solutions that fail to satisfy the conditions of the problem at
+any point of time. (trying out all possibilities using recursion)
 
 ## Generate Valid Parentheses
 
-Given an int A, write a function to generate all combinations of well formed parantheses of length 2*A. 
+Given an int A, write a function to generate all combinations of well-formed parentheses of length 2*A.
 
 ![1735663556747](image/README/1735663556747.png)
 
-**Approach**
+**Concept and Approach**
+
+**Balanced Parentheses**: The parentheses are considered balanced or well-formed when every opening bracket has a
+corresponding closing bracket in the correct order.
+**Example**:
+For ( A = 1 ), the only output is "()"
+For ( A = 2 ), the outputs are "()()" and "(())"
+
+The approach involves:
+Keeping track of counts of left_count and right_count which stand for left and right parentheses respectively.
+You recursively build strings by adding ( or ) while ensuring that:
+The number of ( should be less than ( A ).
+The number of ) should never exceed the number of ( encountered at any point
 
 ![1735663661062](image/README/1735663661062.png)
 
@@ -20,6 +34,9 @@ Given an int A, write a function to generate all combinations of well formed par
 
 ![1735663850893](image/README/1735663850893.png)
 
+**Solution**
+![GenerateValidParentheses](s1/GenerateValidParentheses.java)
+
 **Time and Space Complexity**
 
 **TC** - O (n * 2 ^ n)
@@ -29,3 +46,53 @@ Given an int A, write a function to generate all combinations of well formed par
 ![1735664154850](image/README/1735664154850.png)
 
 ![1735664185214](image/README/1735664185214.png)
+
+## Definition of subset and subsequence
+
+[2, 8, 12, 5, 3, 16]
+
+**subset**
+
+- any selection of elements of an array in any order.
+- empty subset is also a subset.
+  ![img.png](image/README/img.png)
+
+**subsequence**
+
+- it's a subset with order.
+- The order is from left to right (same as the order in the array)
+  ![img_1.png](image/README/img_1.png)
+
+## Generate Subsets
+
+Generate all subsets of given arr[] {distinct}
+
+![img_3.png](image/README/img_3.png)
+
+Number of subsets for array of length n will be 2^n.
+
+**Concept and Approach**
+
+Backtracking can be used to generate all subsets of a given set by deciding at each step whether to include an element
+in the current subset.
+
+Backtracking Strategy
+
+1. Choices at Each Element:
+    - Include it in the current subset.
+    - Exclude it and move to the next element.
+
+![img_4.png](image/README/img_4.png)
+
+**Pseudocode**
+
+```java
+generateSubsets(index, currentSet) {
+    if (index == n) {
+        output the currentSet;
+        return;
+    }
+    generateSubsets(index + 1, currentSet);
+    generateSubsets(index + 1, currentSet + array[index]);
+}
+```
