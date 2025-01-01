@@ -170,3 +170,9 @@ operation)
 **Solution**
 
 [LetterPhone](s1/additionalproblems/LetterPhone.java)
+
+## KthSymbol
+
+**Solution**
+
+[KthSymbol](s1/additionalproblems/KthSymbol.java)
