@@ -165,7 +165,7 @@ operation)
 
 **SC** - O (n) - Depth of the tree
 
-## Letter Phone combinations of an input (Fitness meets variety)
+## Letter Phone combinations of an input
 
 **Solution**
 

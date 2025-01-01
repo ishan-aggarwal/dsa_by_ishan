@@ -42,6 +42,3 @@ public class GeneratePermutations {
         System.out.println(result);
     }
 }
-
-
-
