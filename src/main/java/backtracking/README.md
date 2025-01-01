@@ -219,3 +219,9 @@ currentAnswer to result (which is O(N) operation)
 **Solution**
 
 [PrintAllMazePaths](s2/PrintAllMazePaths.java)
+
+## Subset Sum equal to K
+
+**Solution**
+
+[SubsetSumEqualsK](s2/SubsetSumEqualsK.java)
