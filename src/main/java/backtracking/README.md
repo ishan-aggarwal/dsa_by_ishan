@@ -201,3 +201,21 @@ operation)
 currentAnswer to result (which is O(N) operation)
 
 **SC** - O (n) - Depth of the tree
+
+## Print all paths from source to destination
+
+**Problem Statement**
+
+![img_14.png](image/README/img_14.png)
+
+**Pseudocode**
+
+![img_16.png](image/README/img_16.png)
+
+**Dry Run**
+
+![img_15.png](image/README/img_15.png)
+
+**Solution**
+
+[PrintAllMazePaths](s2/PrintAllMazePaths.java)
