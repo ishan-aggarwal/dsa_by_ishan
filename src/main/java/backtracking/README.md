@@ -176,3 +176,28 @@ operation)
 **Solution**
 
 [KthSymbol](s1/additionalproblems/KthSymbol.java)
+
+## Print Paths In Staircase
+
+**Problem Statement**
+
+![img_11.png](image/README/img_11.png)
+
+**Pseudocode**
+
+![img_12.png](image/README/img_12.png)
+
+**Dry Run**
+
+![img_13.png](image/README/img_13.png)
+
+**Solution**
+
+[PrintPathsInStaircase](s2/PrintPathsInStaircase.java)
+
+**Time and Space Complexity**
+
+**TC** - O (n * 2 ^ n) // total 2^n branches and at the last valid level we are doing deep copy of
+currentAnswer to result (which is O(N) operation)
+
+**SC** - O (n) - Depth of the tree
