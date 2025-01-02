@@ -225,3 +225,25 @@ currentAnswer to result (which is O(N) operation)
 **Solution**
 
 [SubsetSumEqualsK](s2/SubsetSumEqualsK.java)
+
+## Shortest path in a Binary Maze with Hurdles
+
+**Problem Statement**
+
+![img_17.png](image/README/img_17.png)
+
+**Pseudocode**
+
+![img_19.png](image/README/img_19.png)
+
+**Dry Run**
+
+![img_18.png](image/README/img_18.png)
+
+**Solution**
+
+[ShortestPathInBinaryMazeWithHurdles](s2/additionalproblems/ShortestPathInBinaryMazeWithHurdles.java)
+
+**Time and Space Complexity**
+
+![img_20.png](image/README/img_20.png)
