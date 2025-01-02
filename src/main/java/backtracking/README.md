@@ -247,3 +247,7 @@ currentAnswer to result (which is O(N) operation)
 **Time and Space Complexity**
 
 ![img_20.png](image/README/img_20.png)
+
+## Kth Symbol - Hard
+
+[KthSymbolHard](s2/additionalproblems/KthSymbolHard.java)
