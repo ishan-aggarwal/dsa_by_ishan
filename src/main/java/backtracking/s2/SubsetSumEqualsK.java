@@ -65,6 +65,10 @@ public class SubsetSumEqualsK {
         ArrayList<Integer> A = new ArrayList<>(List.of(-5, 3));
         int res = subsetSum(A, -2);
         System.out.println(res);
+
+        ArrayList<Integer> A1 = new ArrayList<>(List.of(1, 2, 3, 4));
+        int res1 = subsetSum(A1, 6);
+        System.out.println(res1);
     }
 
     public static int subsetSum(ArrayList<Integer> A, int B) {
