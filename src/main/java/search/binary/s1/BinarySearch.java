@@ -5,6 +5,8 @@ import java.util.Arrays;
 // TC - O(log n) and SC - O(1)
 public class BinarySearch {
 
+
+
     public static int search(int[] arr, int k) {
         int l = 0;
         int r = arr.length - 1;
