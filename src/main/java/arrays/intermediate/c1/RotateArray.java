@@ -1,4 +1,4 @@
-package arrays.intermediate;
+package arrays.intermediate.c1;
 
 public class RotateArray {
     public int[] solve(int[] A, int B) {

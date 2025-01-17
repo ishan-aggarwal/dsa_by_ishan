@@ -1,4 +1,4 @@
-package arrays.intermediate;
+package arrays.intermediate.c1;
 
 public class SecondLargest {
     public int solve(int[] A) {

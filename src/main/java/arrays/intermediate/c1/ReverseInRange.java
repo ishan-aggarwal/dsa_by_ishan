@@ -1,4 +1,4 @@
-package arrays.intermediate;
+package arrays.intermediate.c1;
 
 /**
  * Q2. Reverse in a range
