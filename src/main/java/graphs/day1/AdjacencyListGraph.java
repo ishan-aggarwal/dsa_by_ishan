@@ -5,7 +5,7 @@ import java.util.List;
 
 public class AdjacencyListGraph extends Graph {
 
-    private final List<List<Integer>> adjacencyList;
+    public final List<List<Integer>> adjacencyList;
 
     public AdjacencyListGraph(int vertices) {
         super(vertices);
