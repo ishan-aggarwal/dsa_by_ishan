@@ -71,7 +71,6 @@ public class ComputeNcR {
                 dp[i][j] %= C;
             }
         }
-
         return dp[A][B];
     }
 }
